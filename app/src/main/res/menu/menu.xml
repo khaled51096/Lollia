@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group_one">
+        <item
+            android:id="@+id/pin"
+            android:icon="@drawable/baseline_shopping_cart_black_48"
+            android:title="ســـــــلة المشــــتريـــــــات">
+
+        </item>
+        <item
+            android:id="@+id/favorite"
+            android:icon="@drawable/baseline_favorite_black_18"
+            android:title="الــمــــــفــضلـــــــة">
+
+        </item>
+        <item
+            android:id="@+id/offer"
+            android:icon="@drawable/baseline_folder_special_black_24"
+            android:title="عــــــــــروض">
+
+        </item>
+    </group>
+    <group android:id="@+id/group_two">
+        <item android:id="@+id/lolla"
+            android:icon="@drawable/baseline_account_balance_black_24"
+            android:title="لوليـــــــــا"
+            ></item>
+    </group>
+    <group android:id="@+id/group_three">
+        <item android:id="@+id/logout"
+            android:icon="@drawable/ic_exit_to_app"
+            android:title="تســـــجيـل الخـــــــروج">
+
+        </item>
+    </group>
+
+
+</menu>
